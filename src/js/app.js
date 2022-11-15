@@ -46,7 +46,7 @@ function render(variables = {}) {
           <ul class="${
             variables.socialMediaPosition
               ? variables.socialMediaPosition
-              : "position-right"
+              : "position-left"
           }">
             <li><a href="https://twitter.com/${
               variables.twitter ? variables.twitter : "4geeksacademy"
